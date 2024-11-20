@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_rounded_gray"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <!-- Group Item -->
+    <EditText
+        android:id="@+id/etGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Group"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:scrollHorizontally="true"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Divider Line -->
+
+    <!-- Amount Item -->
+    <EditText
+        android:id="@+id/etAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Amount"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:inputType="numberDecimal"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:scrollHorizontally="true"
+        android:layout_marginVertical="8dp" />
+
+    <!-- Divider Line -->
+
+    <!-- Date Item -->
+    <EditText
+        android:id="@+id/etDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Date"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:inputType="date"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:scrollHorizontally="true"
+        android:layout_marginTop="8dp" />
+
+    <!-- Divider Line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        android:layout_marginVertical="8dp" />
+
+    <!-- Buttons Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal">
+
+        <!-- Cancel Button -->
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/green_dark"
+            android:padding="12dp"
+            android:minHeight="48dp"
+            android:text="Cancel"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/green_dark"
+            android:padding="12dp"
+            android:minHeight="48dp"
+            android:text="Save"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

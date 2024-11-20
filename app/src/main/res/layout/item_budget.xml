@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/bg_item_budget"
+    android:layout_margin="16dp"
+    android:elevation="8dp"
+    android:clipToPadding="false">
+
+    <!-- Tên nhóm -->
+
+    <!-- Số tiền -->
+    <TextView
+        android:id="@+id/groupTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Đi chợ"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+android:id="@+id/amountTextView"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="123"
+android:gravity="center"
+android:textColor="#000000"
+android:textSize="20sp"
+android:textStyle="bold"
+android:layout_marginTop="8dp" />
+
+    <!-- Ngày -->
+<TextView
+android:id="@+id/dateTextView"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="10/10/2024"
+android:gravity="center"
+android:textColor="#000000"
+android:textSize="16sp"
+android:layout_marginTop="8dp" />
+
+    </LinearLayout>

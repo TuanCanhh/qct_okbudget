@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+
+        android:icon="@drawable/ic_baseline_home"/>
+
+    <item
+        android:id="@+id/shorts"
+        android:title="Report"
+        android:icon="@drawable/ic_baseline_report"/>
+
+    <item
+        android:id="@+id/fab"
+        android:title=""
+        android:enabled="false"/>
+
+    <item
+        android:id="@+id/subscriptions"
+        android:title="Budget"
+        android:icon="@drawable/ic_baseline_budget"/>
+
+    <item
+        android:id="@+id/library"
+        android:title="Profile"
+        android:icon="@drawable/ic_baseline_user"/>
+
+</menu>
